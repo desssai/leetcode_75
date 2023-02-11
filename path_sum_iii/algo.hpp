@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ncarob <ncarob@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/02/10 15:52:43 by ncarob            #+#    #+#             */
-/*   Updated: 2023/02/11 14:09:35 by ncarob           ###   ########.fr       */
+/*   Created: 2023/02/11 14:08:55 by ncarob            #+#    #+#             */
+/*   Updated: 2023/02/11 14:09:45 by ncarob           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,6 @@ struct TreeNode {
 	TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-TreeNode* invertTree(TreeNode* root);
+int	pathSum(TreeNode* root, int targetSum);
 
 #endif /* ALGORITHM_H */
